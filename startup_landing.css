@@ -1,0 +1,26 @@
+body{
+  margin: 30px 60px 40px 60px;
+  padding: 20px 50px 20px 50px
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.para{
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 30px 100px 30px 100px;
+
+}
+.paras{
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 30px 100px 30px 100px
+}
+form{
+  text-align: center;
+}
