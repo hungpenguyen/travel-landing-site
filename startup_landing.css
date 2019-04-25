@@ -1,26 +1,162 @@
+
 body{
-  margin: 30px 60px 40px 60px;
-  padding: 20px 50px 20px 50px
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(222, 228, 229)
 }
-h1{
-  font-family: 'Oswald', sans-serif;
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 38px;
+  background: #386863;
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin: 10px 0px 10px 0px;
+}
+/* Header */
+header{
+  background: rgb(49, 55, 56);
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: rgb(24, 27, 28) 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float:right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #f9f290;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+
+/* showcase */
+#showcase{
+  min-height: 400px;
+  background: url('/Users/hungnugyen/Desktop/startup_landing/img/cov.png') repeat 0;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 20px;
+}
+#newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background: rgb(24, 27, 28);
+}
+
+/* newsletter */
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  width: 250px;
+  height: 25px;
+}
+
+/* boxes */
+
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: rgba(24, 27, 28, .8);
   text-align: center;
 }
 
-h2 {
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
+/* sidebar */
+
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
 }
 
-.para{
-  font-family: 'Open Sans Condensed', sans-serif;
-  margin: 30px 100px 30px 100px;
+/* main-col */
 
+article#main-col{
+  float: left;
+  width: 65%;
 }
-.paras{
-  font-family: 'Open Sans Condensed', sans-serif;
-  margin: 30px 100px 30px 100px
-}
-form{
-  text-align: center;
+
+/* destinations */
+
+ul#destinations li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
 }
